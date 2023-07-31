@@ -1,0 +1,2 @@
+- It defines the structure of an algorithm in a method but allows its steps to be implemented by subclasses.
+- It enables you to create a template for an algorithm in a base class, with certain steps left to be implemented by derived classes.

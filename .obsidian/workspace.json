@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2b1da430a8fc419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asp.net MVC/Asp.net mvc.md",
+                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asp.net MVC/Asp.net mvc.md",
+                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asp.net MVC/Asp.net mvc.md"
+                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md"
               }
             }
           }
@@ -146,8 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5e274e4df04dd5c3",
+  "active": "f2b1da430a8fc419",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
+    "Design Patterns/Behavioral Patterns/Strategy Pattern/Strategy design pattern.md",
+    "Observer Design Pattern.md",
     "Asp.net MVC/Asp.net mvc.md",
     "Read Me.md",
     "Solid Principles/Open Closed",
@@ -160,7 +177,6 @@
     "Schema Design",
     "Entity Framework/Entity Framework.md",
     "Entity Framework",
-    "Design Patterns/Behavioral Patterns/Strategy Pattern/Strategy design pattern.md",
     "Design Patterns/Structural Patterns/Proxy Pattern",
     "Design Patterns/Structural Patterns/Decorator Pattern",
     "Design Parking Lot/Requirement and type.md",
