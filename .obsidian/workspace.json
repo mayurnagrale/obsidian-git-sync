@@ -25,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
+                "file": "Dependancy Injuctions/Dependency Injection In Asp.net.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "68bbd6828491c72e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
               }
             }
           }
@@ -61,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "interchange",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
+                "file": "Dependancy Injuctions/Dependency Injection In Asp.net.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
+                "file": "Dependancy Injuctions/Dependency Injection In Asp.net.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md"
+                "file": "Dependancy Injuctions/Dependency Injection In Asp.net.md"
               }
             }
           }
@@ -159,32 +169,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2b1da430a8fc419",
+  "active": "f13fcc41ee3f5d62",
   "lastOpenFiles": [
+    "Dependancy Injuctions/Dependancy Injuction Example.md",
+    "Dependancy Injuctions/Dependency Injection In Asp.net.md",
+    "Dependancy Injuctions/Dependency Injection In Angular.md",
+    "Splitwise/Spitwise-Calculations.md",
+    "Splitwise/Requirements for split-wise.md",
+    "CSharp Concepts/Object Oriented Programming.md",
+    "CSharp Concepts/Aggregation in oop.md",
+    "CSharp Concepts/Composition in oop.md",
+    "CSharp Concepts/Method Overriding Example.md",
+    "CSharp Concepts/Different Parameter Types.md",
+    "CSharp Concepts/Different Parameter Lists.md",
+    "CSharp Concepts/Static class example.md",
+    "Asp.Net/Asp.net Concets.md",
     "Untitled.md",
-    "Design Patterns/Behavioral Patterns/Template Method Pattern/Template Method Design Pattern.md",
-    "Design Patterns/Behavioral Patterns/Strategy Pattern/Strategy design pattern.md",
-    "Observer Design Pattern.md",
     "Asp.net MVC/Asp.net mvc.md",
-    "Read Me.md",
-    "Solid Principles/Open Closed",
-    "Solid Principles/Single Responsibility",
-    "Solid Principles/Liskov Substitution",
-    "Solid Principles/Interface Segregation",
-    "Solid Principles/Dependency Inversion",
-    "Solid Principles",
-    "Schema Design/Schema Design.md",
-    "Schema Design",
+    "Asp.Net",
+    "Datatable And Linq/Datatables and Linq.md",
+    "Dependancy Injuctions",
+    "Authentication And Autherization/Authentication.md",
+    "MSSQL/Basic Concepts.md",
+    "Datatable And Linq",
     "Entity Framework/Entity Framework.md",
-    "Entity Framework",
-    "Design Patterns/Structural Patterns/Proxy Pattern",
-    "Design Patterns/Structural Patterns/Decorator Pattern",
+    "CSharp Concepts/Basics.md",
+    "MSSQL",
+    "CSharp Concepts",
+    "Angular/Basics.md",
+    "Angular/Custom Directive Example.md",
+    "Angular/Pipes Examples.md",
     "Design Parking Lot/Requirement and type.md",
+    "Design Patterns/Behavioral Patterns/Strategy Pattern/Strategy design pattern.md",
     "Design Parking Lot/Class Diagram for the requirements.md",
-    "Book My Show/Schema Design.md",
-    "Book My Show/Requirements.md",
-    "Book My Show/Class Diagram and Enums.md",
-    "Authentication/Identity.md",
-    "Authentication/Authentication.md"
+    "Angular",
+    "Splitwise",
+    "Solid Principles/2.Open Closed",
+    "Solid Principles/1.Single Responsibility",
+    "Solid Principles/3.Liskov Substitution"
   ]
 }

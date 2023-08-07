@@ -1,3 +1,11 @@
+- ORM-Object relation Mapping develop by Microsoft 
+	 - framework provides high level abstraction and simplifies the process of working
+	 - methods for CRUD operation
+	 - bridge between oop and rdbms
+	 - Linq on entity 
+	 - Changes tracking on entities 
+	 - Have support for multiple databases
+
 Packages for Entity Framework
 Microsoft.EntityFrameworkCore
 Microsoft.EntityFrameworkCore.SqlServer
