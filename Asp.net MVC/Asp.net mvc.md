@@ -89,6 +89,7 @@
      2. Action Filter -> OnActionExecuting, OnActionExecuted
      3. Result Filter
      4. Exception Filter -> 
+     5. Authentication Filter ->
     
 14. Dependency Injection: Know how to use dependency injection to improve code maintainability and testability.
     

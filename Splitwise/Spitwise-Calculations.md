@@ -59,5 +59,7 @@
 	C -100
 	D +200
 	
-	Round-Robin Algorithm
+	Round-Trip Algorithm
+	{if n participant -> n-1 transaction}
+	because in every transaction 1 person will be settled
 	Greedy Algorithm

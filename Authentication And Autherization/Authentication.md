@@ -1,13 +1,15 @@
-Types of authentication in Asp.net mvc core
- - cookie-based authentication
- - token-based authentication
+
+**Types of authentication in Asp.net MVC core**
+ - Cookie-based authentication
+ - Token-based authentication
  - OAuth
  - OpenID Connect
+ - Forms Authentication
 
-Authentication Schemes:
+**Authentication Schemes:**
  - A scheme represents a specific way of authenticating users, such as cookie-based authentication, JWT (JSON Web Tokens) authentication, etc.
  - You can use one or multiple authentication schemes in your application based on your requirements.
-Authentication Middleware Execution:
+Authentication Middleware Execution: ex. [[CoockieBasedAuthMiddleware]] 
 Authentication Providers:
 Authentication Controllers and Actions:
 User Identity:
@@ -17,15 +19,96 @@ User Identity:
 User Authentication and Logout:
 - `SignInAsync`
 - `SignOutAsync`
-using Microsoft.AspNetCore.Authentication.Cookies
 
-builder.Service.AddAuthentication(
-	CookieAuthenticationDefault.AuthenticationScheme).AddCookie(
-	option=>{ option.LoginPath = "/Access/Login";
-	option.ExpireTimeSpam = TimeSpam.FromMinutes(20);
-	}
-);
+![[Pasted image 20230816233652.png]]
 
-app.useAuthenticaiton();
+**Cookie based Authentication** :
+- When we login with username and password entry will get recorded inside a database
+- also it generates a session id 
+- which is some kind of unique identifier(randomly generated) we get it in the form of cookie 
+- Next time we will try to access web page we no longer needed to login with username and password browser will send a session id from cookie to server it will get validated from server side.
+- If we log out server will delete that session details from database and also it will inform browser to clear that cookie session data. Also if it is expired then it will be no longer useful for the login.
 
+- The browser will always send Cookies with every request
+- It is send through Headers(http headers) in browser request or messages exchanged between client and server.
+- Cookies can be modified by the client so it cannot be trusted
 
+- Token=temp password + limited access to your data
+- And this can be done using OAuth, Open Id and JWT
+
+**Token based Authentication** :
+- Client will register first and he will get username and password
+- He will login with that creds and gets a token
+- every time he will have to send a request he will use the token for validation
+- token will expire after specified time and again he will have to login and gets new token
+
+- Things needed for creating token
+	1. username
+	2. role(claims)
+	3. algorithm
+	4. key
+	5. some details like issuer or creator and expiry etc.
+ - Token created from this algorithm will return in {} format so it will known as JWT (JSON web token)
+ - Bearer
+  
+**OAuth based Authentication** :
+- OAuth is for #Autherization
+- Its a service for authorizing another service.
+- OAuth is an open standard for authorization that enables third-party applications to access user resources, such as data or APIs, without having to share the user's credentials.
+- Terms : Resource/Protected Resource, Resource Owner, Resource Server, Client
+	- Resource : 
+	- Resource Owner : An entity capable of granting access to a protected resource.
+	- Resource Server : The server that is holding protected resource.
+	- Client : An  application making protected resource request on behalf of the resource owner and with its authorization.
+	- Authorization Server : The server that is issuing the access token to the client.   
+	
+- Authorization server: Responsible for making sure whoever accessing the resource server is Authorized.
+- Flow 1
+- Authorization code flow : service -> authorization server(ask for client info and permissions and all other details) then authorization servers gives him Authorization Token Now again client ask for access token for resource->(Now with access token client can directly talk with resource )-> resource (then to validate that access token)-> authorization server(if valid) -> client  server can access the resource
+- Flow 2 : Implicit flow
+- No authorization key
+- Drawback in Flow 2 -> if someone else get that access token 
+- Use cases : 
+- OAuth for authorization between services.
+- Authorization between microservices.
+- Flow 3 : Client credentials flow
+- When client is trustworthy 
+**Open Id** Connect:
+- OpenID is an open standard for identity authentication and authorization. 
+- It allows users to authenticate with a single identity provider (IdP) and access multiple applications without having to create separate accounts or remember multiple passwords.
+- In identity, OpenID is used to:
+- Simplify the login process for users.
+- Improve security by centralizing authentication.
+- Enable single sign-on (SSO) between multiple applications.
+- Provide users with more control over their identity data
+
+**JWT** : (JSON Web Token)
+- JWTs can be used to implement token-based authentication. Token-based authentication is a type of authentication where the user is authenticated by a token rather than by their username and password.
+- JWTs can be used for authentication, authorization, and other purposes.
+- The token is typically a string that is generated by the server and is sent to the client.
+- The client then sends the token back to the server with each request.
+- The server can then verify the token to authenticate the user.
+[[Generate Token Method]]
+
+Security of the token:
+	Can token be stolen from the local browser? and also find fiddler ssl? how can we secure client side?
+	[[Security of JWT]]
+
+[[Microsoft.AspNetCore.Authentication.Negotiate]]
+
+Difference between cookie based authentication and token based authentication?
+- In cookie based authentication user info at stored the server side.
+- In token based authentication user info is store inside a token and client will store that token server only decrypt it and verify it using secret key.
+- When we are working with multiple servers we don't have to worry about verifying user when jwt is used for authentication.
+
+**Symmetric keys and asymmetric keys :** 
+**Symmetric key** :
+- Encrypt and decrypt using same key.
+- Shared between the client and the server. 
+- This means that both the client and the server need to know the key in order to sign and verify the token. 
+- Symmetric keys are typically faster than asymmetric keys, but they are also less secure.
+
+**Asymmetric key** :
+- Made up of two keys: a public key and a private key. 
+- The public key is used to verify the token, and the private key is used to sign the token.
+- Asymmetric keys are more secure than symmetric keys, but they are also slower.

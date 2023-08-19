@@ -26,14 +26,15 @@ Requirements from the user flow
 5. Add Expense 
 	1. Name of the expense
 	2. Description
-	3. Date 
-	4. Group or Friend
+	3. Date
+	4. Amount
+	5. Group or Friend
 		1. Paid by
 			1. Add people(From the corresponding group) who paid
 			2. It will show people from the group.
 		2. Shared by
 			1. Add people(From the corresponding group) who shared
-	5. Amount 
+	6. Amount 
 6. Can expanse be added without a group?
 	1. Group: None
 		1. Paid by : It will show list of all the user

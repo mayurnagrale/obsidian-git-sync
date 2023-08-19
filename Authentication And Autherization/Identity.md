@@ -1,3 +1,18 @@
+	namespace Microsoft.AnpNetCore.Identity
+
+**Password Hasher** :
+
+Class User {
+	string Username;
+	string PasswordHasher;
+}
+
+string username = request.username;
+string password = request.password;
+
+		User.PasswordHasher =hasher.HashPassoword(username,password);
+		
+
 Install EF
 Add authentication to Program.cs
 Create and Implement Register page
@@ -37,3 +52,6 @@ void AddAuthorizationPolicies(IServiceCollection service){
 		options.AddPolicy("SalesPerson", policy=>policy.RequireClaim("EmployeeNumber"));
 	})
 }
+
+
+

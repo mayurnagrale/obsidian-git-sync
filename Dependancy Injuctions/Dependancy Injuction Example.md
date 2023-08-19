@@ -9,7 +9,7 @@ public class Dependancy{
 }
 
 public class DependantClass{
-	private _dependacy;
+	private __dependacy;
 	public DependantClass(Dependancy dependancy){
 		_dependacy = dependancy;
 	}
