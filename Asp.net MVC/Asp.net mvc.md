@@ -18,7 +18,7 @@
 		    <p> @if (Model.Age >= 18) { <p>You are an adult.<p> } </p>
 		4. Layouts and Partial Views
 			1. Layouts: A layout is a shared template that wraps around multiple views, providing a common header, footer, and navigation for all pages.
-			2. Partial Views:Partial views are reusable components that can be embedded within other views. They help promote code reuse and simplify the organization of complex user interfaces.
+			2. Partial Views: Partial views are reusable components that can be embedded within other views. They help promote code reuse and simplify the organization of complex user interfaces.
 		5. View Models: To keep Views decoupled from the Model and to provide only the data needed for rendering the UI, Views often use View Models.
 		   <p> public class PersonViewModel { public string FirstName { get; set; } public string LastName { get; set; } }</p> ^50104a
 	 6. Strongly Typed Views:  This allows for compile-time type checking and reduces the likelihood of runtime errors.
@@ -99,8 +99,8 @@
       3.Route Constraints {}
       4.Route Prefix 
 1. TempData and ViewBag: Know how to use `TempData` and `ViewBag` to pass data between controller and view.
-	    1. TempData (single session state in one req) and ViewBag (pass data from controller to view no session state, data is available within current request)
-2. ViewModel: Understand the use of ViewModel to pass data from controller to view and vice versa.
+ - TempData (single session state in one req) and ViewBag (pass data from controller to view no session state, data is available within current request)
+  - ViewModel: Understand the use of ViewModel to pass data from controller to view and vice versa.
     1. Data Aggrigation
            ViewModels allow you to combine data from multiple models into a single object, making it easier to work with complex views that require data from different sources.
     2. Data Transformation
@@ -132,3 +132,14 @@
 29. LINQ: Understand how to use LINQ (Language Integrated Query) for querying data.
     
 30. Async and Await: Know how to use async and await to handle asynchronous operations in ASP.NET MVC.
+
+**Data transfer between client and server** :
+Request and Response
+View State
+Session State
+Cookies
+Web Services
+
+**From controller to view** :
+View Data : 
+Temp Data : Temporary data, it  will get cleared after view is rendered.

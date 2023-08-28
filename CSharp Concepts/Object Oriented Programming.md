@@ -19,15 +19,24 @@
 - Allows modeling of real word entities and their relationship in more intuitive manner.
 
 **Abstraction and Encapsulation** :
+- **Abstraction** is the process of hiding the implementation details of an object or system from the user. This allows the user to focus on the essential features of the object without having to worry about how it works.
+
+- **Encapsulation** is the binding together of data and the methods that operate on that data. This means that the data and its associated methods are kept together in a single unit, called an object. The data in an object can only be accessed through the object's methods, which helps to protect the data from unauthorized access
+
+The main difference between abstraction and encapsulation is that abstraction deals with hiding the implementation details of an object, while encapsulation deals with hiding the data in an object. Abstraction is typically used to hide the complexity of an object, while encapsulation is typically used to protect the data in an object.
+
+- Abstraction is often implemented using abstract classes and interfaces.
+- Encapsulation is often implemented using access modifiers, such as private, protected, and public.
+- Abstraction and encapsulation are complementary concepts. They can be used together to create objects that are both easy to use and secure.
 
 **Abstract class and Interfaces** :
 - Abstract class : 
 	 1. Should have at least  one abstract method 
 	 2. When we know partial requirements but commonly used functionalities
 	 3. Whatever methods are defined does not have to be implemented
-	 4. can have access modifiers or it can be static
+	 4. Can have access modifiers or it can be static
 - Interfaces :
-	1.  set of abstract methods and properties
+	1.  Set of abstract methods and properties
 	2.  data members do not have access modifiers by default it is public static and final
 	3.  A class can implement one or more interfaces, and it must provide implementation for all  the methods and properties 
 	4.  whatever methods declared in interfaces must be implemented in its derived class 

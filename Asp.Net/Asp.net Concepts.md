@@ -4,7 +4,7 @@ Difference between Asp.net and Asp.net core
 
 Value Objects:
 Type Safety
-Immutablity
+Immutability
 Encapsulation
 Structural integrity
 
@@ -30,7 +30,7 @@ Middleware in mvc :
 Allow us to perform various task before processing the request to controller or after the response 
 Request Middleware -> performs task like (logging , validation authentication etc)
 Controller Action Execution -> 
-Response Middleware -> it performs task life modifying the response, setting headers, 
+Response Middleware -> it performs task like modifying the response, setting headers, 
 
 - **Authentication and Authorization:** Middleware can check if a user is authenticated and authorized to access a specific route or resource. If not, it can redirect them to a login page or return an error.
     
@@ -47,3 +47,20 @@ Response Middleware -> it performs task life modifying the response, setting hea
 - **Content-Type Negotiation:** Middleware can negotiate the content type of the response based on the client's preferences, such as JSON or HTML.
     
 - **Routing:** In some cases, routing itself can be implemented as middleware, directing requests to the appropriate controller action based on URL patterns.
+
+
+**Difference between Tempdata and Viewbag** :
+Viewbag : 
+- Valid for only one http req
+- Can store any type of data doest not get typechecked at runtime
+- ex. to send some message in view.
+
+Tempdata : 
+- Not limited to single request
+- **Usage**: `TempData` is commonly used when you need to pass data from one action to another action (typically after a redirection) within the same session.
+- For example, you might use `TempData` to store data temporarily during a form submission, then retrieve and display it on a confirmation page.
+
+**Resource Files in Dotnet** :
+In .NET, a resource file is a file that contains non-executable data that is used by your application. This data can include strings, images, icons, and other binary data. Resource files are typically used to localize your application, i.e. to make it available in multiple languages.
+
+Resource files can be stored in a variety of formats, including XML, binary, and JSON. The most common format for resource files in .NET is XML. XML resource files are called .resx files.

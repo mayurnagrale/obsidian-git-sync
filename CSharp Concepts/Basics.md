@@ -1,6 +1,15 @@
+**Lazy Loading** :
+- In c# we often use lazy loading to defer the initialization of the object or data until it is needed.
+- this is useful when we are dealing with large dataset or expensive resource.
+- The `Lazy<T>` class in C# provides a straightforward way to implement lazy loading.
+
+**Eager Loading** :
+- Eager loading is a technique in software development that loads all related data when you load a particular object. This can be done to improve performance by reducing the number of queries that need to be executed.
+- var customers = context.Customers.Include(c => c.Orders); 
+
 **Read-only and Constant** :
 	Constant - define at the time of compilation, we need to pass the value to the constant at the time of define.
-	Read-only - passing value at definition not necessarily needed. we can call this as run time variable as we can pass value later
+	Read-only - passing value at definition not necessarily needed. we can call this as run time variable as we can pass value later?
 	
 **Static class** :
 - It contains only static members such as methods properties and fields 
@@ -45,20 +54,21 @@
 #new - to hide base class method from derived class
 #partial - we can write methods in two different classes with same name, at runtime it will be treated as one single method
 type of constructor - parameterized and non parameterized and copy constructor
-private constructor - to restrict the object creation outside the class
-static constructor - is get called when the object is created for the first time
+#private_constructor - to restrict the object creation outside the class
+#static_constructor - is get called when the object is created for the first time
 #boxing and #unboxing - type conversion from small to large and vice-versa
 boxing: value type to object type
 #parsing -conversion of data type
 
 
 **Difference between reference type and value type** :
-  
+- **Reference types** are objects that store a reference to the actual data. When you pass a reference type to a method, you are passing the reference itself, not the actual data. This means that any changes made to the data in the method will be reflected in the original variable.
 
+- **Value types** are primitive types that store the actual data. When you pass a value type to a method, you are passing the actual data itself, not a reference to it. This means that any changes made to the data in the method will not be reflected in the original variable.
 
 **Difference between ref and out parameter** :
 	ref- enable two-way communication between the calling code and the method.
-			-When using ref, the variable passed as a parameter must be initialized before calling the method; otherwise, a compilation error will occur When using ref, 
+			- When using ref, the variable passed as a parameter must be initialized before calling the method; otherwise, a compilation error will occur When using ref, 
 			the variable passed as a parameter must be initialized before calling the method; 
 			otherwise, a compilation error will occur
 	out- The primary purpose of out parameters is to allow a method to return multiple values
@@ -73,19 +83,33 @@ Difference between asynchronous synchronous and multithreading
 synchronous programming follows a sequential execution model, asynchronous programming allows tasks to execute independently without blocking, 
 and multithreading involves running multiple threads simultaneously, which can be used to implement both synchronous and asynchronous behavior.
 
+**Threads and Tasks** :
+- Threads : part of os
+- Tasks: part of the framework
+
 **Dependency Injection** :
-Define life time of the object
+1. **Dependencies**: In an application, you have various classes and components that depend on each other to perform tasks. These dependencies are typically other classes or services that a component needs to function correctly.
+    
+2. **Injection**: Instead of creating these dependencies within a class, you "inject" them from the outside. This can be done via constructor injection, property injection, or method injection.
+
+**Define life time of the object** : 
 Singleton - Caching and shared services - one instance is created and shared thought the application
 scope -  repository for the same transaction - one instance is created and shared thought the scope
 transient - instance should not affect each other + thread safety - every time it is requested it will create a new instance 
 
 **Extension Method** :
-	Helps you to add new method to existing type without modifying the existing code, and without any inheritance and aggrigation
+	Helps you to add new method to existing type without modifying the existing code, and without any inheritance and aggregation
 	
 **Why do we need getters and setters?**
- to have more control over attributes, suppose if we want to add some restriction like which value should we pass we use set inside the setter 
+ - to have more control over attributes, suppose if we want to add some restriction like which value should we pass we use set inside the setter 
 
-#Reflections - used for obtaining the type information at runtime 
+- #Reflections - used for obtaining the type information at runtime 
 
-Arrays: fixed side, same type elements only(type oriented)
-List<T>: dynamic array , can grow n shrink its size in runtime
+- Arrays: fixed side, same type elements only(type oriented)
+- List<T>: dynamic array , can grow n shrink its size in runtime.
+
+
+
+
+
+ 

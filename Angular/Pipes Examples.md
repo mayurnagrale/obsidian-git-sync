@@ -25,4 +25,7 @@ export class AppComponent {
   originalText: string = 'Angular Pipes Example';
 }
 
-3. 
+3. Lower Case
+4. Currency
+5. Percent
+6. Slice

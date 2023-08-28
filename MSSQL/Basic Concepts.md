@@ -1,3 +1,14 @@
+**Difference between SQL and NoSql** :
+SQL: 
+- Follows RDBMS
+- MySql, PostgreSQL, MsSql-Server 
+
+
+NOSQL: 
+- No-Relational or distributed database system
+- MongoDb(json like), GraphQl, HBase
+
+
 **Keys in Sql** :
 
 **Super Key** :
@@ -79,10 +90,10 @@ SQL functions:
 
 **index - clustered and non-clustered** :
 **Clustered index** :
-- A clustered index is a special type of index that physically orders the rows in a table. The clustered index is the primary key of the table. Only one clustered index can be created on a table.
+- A clustered index is a special type of index that physically orders the rows in a table. This means that the rows in the table are stored in the same order as the index keys. Only one clustered index can be created on a table.
 
 **Non-clustered index** :
-- A non-clustered index is an index that does not physically order the rows in a table. The non-clustered index is created on one or more columns of a table.
+- A non-clustered index is an index that does not physically order the rows in a table. The rows in the table are stored in the same order as they were inserted, regardless of the index keys. Multiple non-clustered indexes can be created on a table.
 
 
 identity column: a numeric column in the table that automatically populate when new row is added
@@ -171,6 +182,13 @@ DISTINCT
 View : Virtual table 
 	takes less space 
 	can combine more tables into one
+ - A view in SQL Server is a virtual table that is defined by a query. It does not physically exist in the database, but it appears to be a table when you query it. Views can be used to simplify queries, to restrict access to data, and to improve performance.
+
+Here are some of the benefits of using views in SQL Server:
+
+- **Simplicity:** Views can be used to simplify complex queries by combining data from multiple tables.
+- **Security:** Views can be used to restrict access to data by only allowing users to see the data that they need to see.
+- **Performance:** Views can improve performance by caching the results of a query, so that the query does not have to be executed every time it is used.
 	
 User define function
 	Scalar function
@@ -202,7 +220,7 @@ WHERE salary < (
         SELECT MAX(salary)
         FROM employees
     )
-);	`	`	+
+); 
 
 Insert null value in table 
 	1.omit column 

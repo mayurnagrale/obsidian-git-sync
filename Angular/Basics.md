@@ -86,3 +86,14 @@ Interceptors are a way to intercept HTTP requests and responses.
 interceptors are implemented as classes that implement the `HttpInterceptor` interface. The `HttpInterceptor` interface defines two methods:
 - `intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>>;`
 - `supports(request: HttpRequest<any>): boolean;`
+
+**Lazy Loading :** 
+- Lazy loading is a technique to delay loading of module or component until it is actually needed.
+- This is helpful in improving the performance in application as we don't need to initialize those components or module which is not needed
+- div ngModule="myModule"></div
+- In above div module will not get loaded till we render div \
+- At the start of the application we don't need to load all the routes if it the big application
+- loadChildren can be a example of lazy loading 
+
+<div ngModule="myModule"></div>
+
