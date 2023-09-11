@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "660eef73d184ef99",
+        "id": "622bb57a8d747e9e",
         "type": "tabs",
         "children": [
           {
-            "id": "1a887a31b8662e7e",
+            "id": "d0301498a305ffdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solid Principles/1.Single Responsibility/The Single Responsibility Principal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55be25c9a459268f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MSSQL/Basic Concepts.md",
+                "file": "HLD/Catching/Catching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 303.5
   },
   "right": {
     "id": "963227f0d66172e2",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSSQL/Basic Concepts.md",
+                "file": "HLD/Catching/Catching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSSQL/Basic Concepts.md",
+                "file": "HLD/Catching/Catching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSSQL/Basic Concepts.md"
+                "file": "HLD/Catching/Catching.md"
               }
             }
           }
@@ -159,46 +146,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55be25c9a459268f",
+  "active": "d0301498a305ffdb",
   "lastOpenFiles": [
-    "Asp.Net/Asp.net Concepts.md",
-    "Asp.net MVC/Asp.net mvc.md",
+    "System Design.canvas",
+    "HLD/Catching/Catching.md",
+    "HLD/Catching/Catching Algorithms.md",
+    "HLD/Load Balancing/Stateless vs Statefull.md",
+    "HLD/Catching/Consistent Hashing Algorithm.md",
+    "MSSQL/Practice/Delete Queries.md",
+    "HLD/Catching/ConsistentHashingJava.md",
+    "Design Patterns/Behavioral Patterns/Command Design Pattern/Command Design Pattern.md",
+    "CleanArchitecture/CQRS.md",
+    "CleanArchitecture/Clean Architecture.md",
+    "CleanArchitecture/Class Diagram CA.md",
+    "CleanArchitecture/DDD.md",
     "MSSQL/Basic Concepts.md",
+    "MSSQL/Db Context.md",
+    "MSSQL/Examples/Triggers Example.md",
+    "MSSQL/Examples/Stored Procedure Examples.md",
+    "MSSQL/Examples/Indexing Example.md",
     "MSSQL/Entity Framework/Entity Framework.md",
+    "Dotnet/Framework.md",
+    "Design Parking Lot/Class Diagram for the requirements.md",
+    "Design Parking Lot/Requirement and type.md",
+    "Datatable And Linq/Datatables and Linq.md",
     "CSharp Concepts/Static class example.md",
     "CSharp Concepts/Object Oriented Programming.md",
-    "CSharp Concepts/Basics.md",
-    "Design Patterns/Creational Patterns/Factory Method Pattern/Abstract Factory.md",
-    "Solid Principles/1.Single Responsibility/The Single Responsibility Principal.md",
-    "Design Patterns/Creational Patterns/Factory Method Pattern/Factory Method.md",
-    "Design Patterns/Creational Patterns/Prototype Pattern",
-    "Dotnet/Framework.md",
-    "Authentication And Autherization/Generate Token Method.md",
-    "Authentication And Autherization/Identity.md",
-    "Authentication And Autherization/CoockieBasedAuthMiddleware.md",
-    "Authentication And Autherization/Authentication.md",
-    "Solid Principles/5.Dependency Inversion/Dependency Inversion Principle.md",
-    "Solid Principles/4.Interface Segregation/Interface segregation principle.md",
-    "Solid Principles/3.Liskov Substitution/Liskov Substitution Principle.md",
-    "Untitled.md",
-    "Solid Principles/2.Open Closed/Open Closed Principle.md",
-    "Authentication And Autherization/Microsoft.AspNetCore.Authentication.Negotiate.md",
-    "Authentication And Autherization/Security of JWT.md",
-    "Next/Ideas.md",
-    "Dotnet",
-    "Angular/Pipes Examples.md",
-    "Angular/Custom Directive Example.md",
-    "Angular/Basics.md",
-    "Pasted image 20230810033833.png",
+    "CSharp Concepts/Method Overriding Example.md",
+    "CSharp Concepts/Different Parameter Types.md",
+    "Dotnet Maui",
     "Pasted image 20230816233652.png",
-    "Untitled.canvas",
-    "Codes",
-    "MSSQL/Examples",
-    "CSharp Concepts/Aggregation and Composition",
-    "CSharp Concepts/Examples",
-    "Next",
-    "Javascript",
-    "Design Patterns/Behavioral Patterns/Command Design Pattern",
-    "Books Software Engineer"
+    "Pasted image 20230810033833.png",
+    "HLD/Basics",
+    "HLD/Scaling",
+    "HLD/Load Balancing",
+    "HLD/Catching",
+    "HLD",
+    "Github",
+    "MSSQL/Practice",
+    "Design Patterns/Creational Patterns/Prototype Pattern",
+    "Dotnet"
   ]
 }

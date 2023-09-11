@@ -229,9 +229,9 @@ Insert null value in table
 *Fetch alternate record from the table
 - using mod function
 For even
-Select studentId from (select rowno,studentId from Students) where mod(rowno,2)=0; 
+Select studentId from (select rowno,studentId from Students) as temp where mod(rowno,2)=0; 
 For odd
-Select studentId from (select rowno,studentId from Students) where mod(rowno,2)=1;
+Select studentId from (select rowno,studentId from Students) as temp where mod(rowno,2)=1;
 
 First five characters 
 	substring(string,1,5) ..start and end
@@ -241,7 +241,6 @@ First five characters
 *Flip the value of a column having 0 and 1 numeric values
 
 Update table_name
-
 SET column_name CASE
 	WHEN column_name = 0 THEN 1
 	WHEN column_name = 1 THEN 0
@@ -303,7 +302,7 @@ How to increase performance of a query?
 		-Recursive query
 		-Avoid Code Duplication
 		
- Temp Table-Temp Tables are physically created in the tempdb database.
+ Temp Table-Temp Tables are physically created in the #Tempdb database.
  Temporary Tables:
 Temporary tables are physical tables that are created in the temporary database (or session) and 
 exist only for the duration of a session or a transaction. 
@@ -323,3 +322,22 @@ Use of Temporary Tables:
  Drop Column
  ALTER TABLE Customers
  DROP COLUMN ContactName;
+
+
+**Tempdb** :
+- Tempdb is a system database that are used to store temporary object in sql server.
+- These objects include temporary tables, store procedures, and cursors.
+- Tempdb is also used to store intermediate results of the queries.
+
+- Tempdb is a system database, which means that it is created and managed by SQL Server. Users cannot create or delete Tempdb.
+
+The default size of Tempdb is 8MB. However, the size of Tempdb can be changed by the administrator.
+
+**Cursors** :
+A cursor in SQL is a temporary work area that stores the results of a SELECT statement. It allows you to process the results of the SELECT statement one row at a time.
+
+To declare a cursor in SQL, you use the `DECLARE` statement. The syntax is as follows:
+
+```
+DECLARE cursor_name CURSOR FOR SELECT statement;
+```

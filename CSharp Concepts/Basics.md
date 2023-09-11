@@ -1,3 +1,10 @@
+**Difference between Collection and Generics** :
+- Collection : Collections are way to store organize data. 
+- We get Arrays, List, Queue.
+- 
+- Generics : Generics are way to create  template for a class or method.
+- Using templates we can make our class of method more flexible and reusable.
+
 **Lazy Loading** :
 - In c# we often use lazy loading to defer the initialization of the object or data until it is needed.
 - this is useful when we are dealing with large dataset or expensive resource.
@@ -98,7 +105,11 @@ scope -  repository for the same transaction - one instance is created and share
 transient - instance should not affect each other + thread safety - every time it is requested it will create a new instance 
 
 **Extension Method** :
-	Helps you to add new method to existing type without modifying the existing code, and without any inheritance and aggregation
+	Helps you to add new method to existing type without modifying the existing code, and without any inheritance and aggregation.
+
+	E- x . 
+	static class Extensions { public static string ToString(this int value) { return $"{value}"; } }
+	int number = 10; string text = number.ToString();
 	
 **Why do we need getters and setters?**
  - to have more control over attributes, suppose if we want to add some restriction like which value should we pass we use set inside the setter 
@@ -107,6 +118,7 @@ transient - instance should not affect each other + thread safety - every time i
 
 - Arrays: fixed side, same type elements only(type oriented)
 - List<T>: dynamic array , can grow n shrink its size in runtime.
+
 
 
 

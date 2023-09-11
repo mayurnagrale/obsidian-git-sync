@@ -1,4 +1,23 @@
 
+**For loop in Angular** :
+<ul class="item list">
+	<li>item 1</li>
+	<li>item 2</li>
+	<li>item 3</li>
+	<li>item 4</li>
+</ui>
+<ul class="item list" *ngFor="let item in itemList"*>
+	<li>item</li>
+</ui>
+<div *ngFor="let item in listofsomething">
+	item
+</div>
+
+**Role of routing in angular** : 
+- Its a mechanism that allows user to navigate though the application, 
+- Routes are basically defined urls for different components
+- Through routing user can navigate to different view or components without having to load or refresh the whole page
+
 **Ng directive** : 
 - Its a class that are used to extend the behavior of html elements
 - directive are used to manipulate Dom elements, add event handlers , apply style , and to create reusable components
@@ -64,6 +83,17 @@ Both are use for handling asynchronous operation and manage the flow of data
 
 - **Calling ViewChild , ViewChildren , ContentChild , and ContentChildren** : These decorators can be used to access a child component's properties or methods from the parent component. This can be useful for passing data from the parent component to the child component, or for calling methods on the child component from the parent component.
 
+- **Event Emitter** : Using event emitter we can send the data between two unrelated components.
+	- Create an event emitter in one component.
+	- Subscribe that event in another component.
+	- When we want to pass data emit that event from first component.
+	- The second component will receive that event and able to access the data.
+	
+- **Subject** : we can use subject to event data from one component to another 
+	- First create a object of subject in first component and add next method to that object we call lines of code it will emit that value inside that object.
+	- We we subscribe this object in another component inside ngOnInit and through constructor inject we will pass our component to that another component. 
+ 
+
 
 **Decorators in Angular** : 
 In Angular, a **decorator** is a special function that is used to modify the behavior of a class, property, or method. Decorators are declared using the `@` symbol.
@@ -94,6 +124,11 @@ interceptors are implemented as classes that implement the `HttpInterceptor` int
 - In above div module will not get loaded till we render div \
 - At the start of the application we don't need to load all the routes if it the big application
 - loadChildren can be a example of lazy loading 
+
+**Subject in Angular** :
+It is similar to event emitter in angular, it is a special type of observable that allows us to emit the values and listen for changes. 
+Its has some addition feature sa. it is used to implement push notification, chat and live updates. It can also used to implement more complex feature sa undo/redo , drag and drop 
+
 
 <div ngModule="myModule"></div>
 

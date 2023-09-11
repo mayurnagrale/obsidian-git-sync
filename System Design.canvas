@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"180a75943364ccc6","type":"text","text":"System Design ","x":-120,"y":-80,"width":250,"height":60},
+		{"id":"70fd995648d6efad","type":"text","text":"Scaling\n- Type of scaling ","x":-440,"y":-100,"width":250,"height":100,"color":"4"},
+		{"id":"883ce535287df26b","type":"file","file":"HLD/Scaling/Vertical Scaling.md","x":-920,"y":-130,"width":400,"height":160,"color":"6"},
+		{"id":"0c03b31000dabd5a","type":"text","text":"Load Balancing","x":-120,"y":-300,"width":250,"height":60,"color":"4"},
+		{"id":"072d47164bf5c4f0","type":"text","text":"Catching","x":220,"y":-80,"width":250,"height":60,"color":"4"},
+		{"id":"99d21dc16e8c3109","type":"file","file":"HLD/Catching/Catching.md","x":520,"y":-130,"width":400,"height":160,"color":"6"},
+		{"id":"66d1a11e1ac82e54","type":"file","file":"HLD/Load Balancing/Stateless vs Statefull.md","x":-624,"y":-350,"width":400,"height":160,"color":"6"}
+	],
+	"edges":[
+		{"id":"8575304e68e90a27","fromNode":"180a75943364ccc6","fromSide":"top","toNode":"0c03b31000dabd5a","toSide":"bottom"},
+		{"id":"0c460e2f782ee10e","fromNode":"180a75943364ccc6","fromSide":"right","toNode":"072d47164bf5c4f0","toSide":"left"},
+		{"id":"8d43fa1f36c91246","fromNode":"70fd995648d6efad","fromSide":"right","toNode":"180a75943364ccc6","toSide":"left"},
+		{"id":"8de28635cd1d3435","fromNode":"66d1a11e1ac82e54","fromSide":"right","toNode":"0c03b31000dabd5a","toSide":"left"},
+		{"id":"085b1e079b59a6ab","fromNode":"883ce535287df26b","fromSide":"right","toNode":"70fd995648d6efad","toSide":"left"},
+		{"id":"3240929093ec02f2","fromNode":"072d47164bf5c4f0","fromSide":"right","toNode":"99d21dc16e8c3109","toSide":"left"}
+	]
+}

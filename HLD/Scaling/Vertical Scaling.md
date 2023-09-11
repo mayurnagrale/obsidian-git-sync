@@ -1,0 +1,1 @@
+- If you are running into bottleneck issues and fix the bottleneck by using some fancier machine.

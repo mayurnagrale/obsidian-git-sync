@@ -48,11 +48,25 @@ The main difference between abstraction and encapsulation is that abstraction de
 2. Different Parameter Lists: differ in the number of parameters ex.[[Different Parameter Lists]]
 3. Different Parameter Types: differ in the types of parameters they accept ex.[[Different Parameter Types]]
 4. Different Return Types: The return type alone cannot be used to distinguish between overloaded methods. 
+5. Is this a example of method overloading or it will give error ? 
+	``` 
+	void Add(int a, int b)
+	{
+	}
+	void Add(ref int a, ref int b)
+	{
+	}
+	```
+	
+	Yes its an example of method overloading, as we are passing int a and int b with pass by reference its an example of method overloading
 
 - Method Overriding:
 6. Allows a derived class to provide a specific implementation for a method that is already defined in its base class.
 7. The overridden method in the derived class should have the same method signature (method name, return type, and parameters) as the method in the base class.
 8. Method overriding example: [[Method Overriding Example]]
+
+
+
 
 
 **Type of constructor**
