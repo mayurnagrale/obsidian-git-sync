@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "622bb57a8d747e9e",
+        "id": "fe6693c0bb16bd81",
         "type": "tabs",
         "children": [
           {
-            "id": "d0301498a305ffdb",
+            "id": "2880ade5ee883d40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sd/Load balancing.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sd/Load balancing.md",
+                "file": "HLD/Sharding/Sharding and Replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sd/Load balancing.md",
+                "file": "HLD/Sharding/Sharding and Replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sd/Load balancing.md"
+                "file": "HLD/Sharding/Sharding and Replication.md"
               }
             }
           }
@@ -146,19 +142,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0301498a305ffdb",
+  "active": "f13fcc41ee3f5d62",
   "lastOpenFiles": [
-    "Sd/Catching.md",
-    "HLD/Catching/Catching.md",
-    "Sd/Sharding and Replication.md",
-    "Sd/PACE LC Theorem.md",
+    "HLD/Sharding",
+    "HLD/Load Balancing/Active - Passive.md",
     "Sd/Load balancing.md",
-    "Sd/Cap Theorem.md",
+    "HLD/Load Balancing/Stateless vs Statefull.md",
+    "HLD/Catching/Catching.md",
+    "Sd/Catching.md",
+    "HLD/Catching/Catching Algorithms.md",
+    "HLD/Catching/Consistent Hashing Algorithm.md",
+    "HLD/Sharding/Sharding and Replication.md",
+    "HLD/PACE LC Theorem.md",
+    "HLD/Cap Theorem.md",
     "Sd",
     "System Design.canvas",
-    "HLD/Catching/Catching Algorithms.md",
-    "HLD/Load Balancing/Stateless vs Statefull.md",
-    "HLD/Catching/Consistent Hashing Algorithm.md",
     "MSSQL/Practice/Delete Queries.md",
     "HLD/Catching/ConsistentHashingJava.md",
     "Design Patterns/Behavioral Patterns/Command Design Pattern/Command Design Pattern.md",
@@ -174,8 +172,6 @@
     "MSSQL/Entity Framework/Entity Framework.md",
     "Dotnet/Framework.md",
     "Design Parking Lot/Class Diagram for the requirements.md",
-    "Design Parking Lot/Requirement and type.md",
-    "Datatable And Linq/Datatables and Linq.md",
     "Dotnet Maui",
     "Pasted image 20230816233652.png",
     "Pasted image 20230810033833.png",

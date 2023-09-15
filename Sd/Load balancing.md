@@ -1,1 +1,0 @@
-Active - Passive ( Need to understand this )
