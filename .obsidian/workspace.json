@@ -148,6 +148,12 @@
   },
   "active": "d0301498a305ffdb",
   "lastOpenFiles": [
+    "Sd/Sharding and Replication.md",
+    "Sd/PACE LC Theorem.md",
+    "Sd/Load balancing.md",
+    "Sd/Catching.md",
+    "Sd/Cap Theorem.md",
+    "Sd",
     "System Design.canvas",
     "HLD/Catching/Catching.md",
     "HLD/Catching/Catching Algorithms.md",
@@ -170,10 +176,6 @@
     "Design Parking Lot/Class Diagram for the requirements.md",
     "Design Parking Lot/Requirement and type.md",
     "Datatable And Linq/Datatables and Linq.md",
-    "CSharp Concepts/Static class example.md",
-    "CSharp Concepts/Object Oriented Programming.md",
-    "CSharp Concepts/Method Overriding Example.md",
-    "CSharp Concepts/Different Parameter Types.md",
     "Dotnet Maui",
     "Pasted image 20230816233652.png",
     "Pasted image 20230810033833.png",
@@ -184,7 +186,6 @@
     "HLD",
     "Github",
     "MSSQL/Practice",
-    "Design Patterns/Creational Patterns/Prototype Pattern",
-    "Dotnet"
+    "Design Patterns/Creational Patterns/Prototype Pattern"
   ]
 }
