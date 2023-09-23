@@ -222,6 +222,8 @@ WHERE salary < (
     )
 ); 
 
+[[Select Nth]]
+
 Insert null value in table 
 	1.omit column 
 	2.insert NULL keyword in values clause
@@ -341,3 +343,16 @@ To declare a cursor in SQL, you use the `DECLARE` statement. The syntax is as fo
 ```
 DECLARE cursor_name CURSOR FOR SELECT statement;
 ```
+
+**Rank and Row_Num** :
+The `RANK()` and `ROW_NUMBER()` functions in MSSQL Server are both used to rank rows in a result set. However, there are some key differences between the two functions.
+
+**RANK()**
+
+The `RANK()` function assigns a rank to each row in a result set, based on the values in a specified column or columns. The rank of a row is one plus the number of rows that come before the row in question. If two or more rows have the same value in the specified column(s), they are assigned the same rank.
+
+**ROW_NUMBER()**
+
+The `ROW_NUMBER()` function also assigns a rank to each row in a result set, but it does so in a sequential order, starting at 1 for the first row. If two or more rows have the same value in the specified column(s), their rank is determined by their order in the result set.
+
+[[Rank and Row_Num ex]]

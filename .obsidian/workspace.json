@@ -11,11 +11,28 @@
             "id": "2880ade5ee883d40",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSharp Concepts/Examples/Polymorphism and Inheritance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b95c31044b962a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Patterns/Behavioral Patterns/Behavioural Design Pattern.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HLD/Sharding/Sharding and Replication.md",
+                "file": "Design Patterns/Behavioral Patterns/Behavioural Design Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HLD/Sharding/Sharding and Replication.md",
+                "file": "Design Patterns/Behavioral Patterns/Behavioural Design Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +138,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HLD/Sharding/Sharding and Replication.md"
+                "file": "Design Patterns/Behavioral Patterns/Behavioural Design Pattern.md"
+              }
+            }
+          },
+          {
+            "id": "8e8a909269c796d4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -142,46 +169,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f13fcc41ee3f5d62",
+  "active": "b95c31044b962a46",
   "lastOpenFiles": [
-    "HLD/Sharding",
-    "HLD/Load Balancing/Active - Passive.md",
-    "Sd/Load balancing.md",
-    "HLD/Load Balancing/Stateless vs Statefull.md",
-    "HLD/Catching/Catching.md",
-    "Sd/Catching.md",
-    "HLD/Catching/Catching Algorithms.md",
-    "HLD/Catching/Consistent Hashing Algorithm.md",
-    "HLD/Sharding/Sharding and Replication.md",
-    "HLD/PACE LC Theorem.md",
-    "HLD/Cap Theorem.md",
-    "Sd",
-    "System Design.canvas",
-    "MSSQL/Practice/Delete Queries.md",
-    "HLD/Catching/ConsistentHashingJava.md",
-    "Design Patterns/Behavioral Patterns/Command Design Pattern/Command Design Pattern.md",
-    "CleanArchitecture/CQRS.md",
-    "CleanArchitecture/Clean Architecture.md",
-    "CleanArchitecture/Class Diagram CA.md",
-    "CleanArchitecture/DDD.md",
+    "Design Patterns/Structural Pattern/Structural Design Pattern.md",
+    "Design Patterns/Behavioral Patterns/Behavioural Design Pattern.md",
+    "Design Patterns/Untitled.md",
+    "Design Patterns/Structural Pattern/Composition Pattern",
+    "Design Patterns/Creational Patterns/Builder Pattern/Builder Design Pattern.md",
+    "Design Patterns/Structural Pattern/Bridge Pattern",
+    "Design Patterns/Structural Pattern/Proxy Pattern",
+    "Design Patterns/Structural Pattern/Decorator Pattern",
+    "Design Patterns/Structural Pattern/Adapter Pattern",
+    "Design Patterns/Creational Patterns/Creational Design Pattern.md",
+    "Design Patterns/Creational Patterns/Singleton Pattern/Singleton Design Pattern.md",
+    "Design Patterns/Creational Patterns/Prototype Pattern/Prototype Design Pattern.md",
+    "Design Patterns/Creational Patterns/Factory Method Pattern/Abstract Factory.md",
+    "Design Patterns/Creational Patterns/Factory Method Pattern/Factory Method.md",
     "MSSQL/Basic Concepts.md",
-    "MSSQL/Db Context.md",
+    "Design Patterns/Creational Patterns/Prototype Pattern",
+    "Design Patterns/Creational Patterns/Builder Pattern",
+    "Design Patterns/Creational Patterns/Singleton Pattern",
+    "CSharp Concepts/Object Oriented Programming.md",
+    "CSharp Concepts/Basics.md",
+    "Asp.Net/Asp.net Concepts.md",
+    "Angular/Basics.md",
+    "CSharp Concepts/Examples/Polymorphism and Inheritance.md",
+    "CSharp Concepts/Static class example.md",
+    "CSharp Concepts/Method Overriding Example.md",
+    "CSharp Concepts/Different Parameter Lists.md",
+    "CSharp Concepts/Different Parameter Types.md",
+    "Github/Git.md",
+    "System Design.canvas",
+    "Screenshot 2023-09-22 at 12.10.42 AM.png",
+    "Screenshot 2023-09-22 at 12.09.27 AM.png",
+    "Dynamic Programming.md",
+    "Dynamic Programming",
+    "MSSQL/Practice/Delete Queries.md",
+    "MSSQL/Practice/Dates.md",
+    "MSSQL/Practice/Convert row to column.md",
     "MSSQL/Examples/Triggers Example.md",
     "MSSQL/Examples/Stored Procedure Examples.md",
-    "MSSQL/Examples/Indexing Example.md",
-    "MSSQL/Entity Framework/Entity Framework.md",
-    "Dotnet/Framework.md",
-    "Design Parking Lot/Class Diagram for the requirements.md",
-    "Dotnet Maui",
+    "Design Patterns/Structural Pattern",
+    "Screenshot 2023-09-17 at 9.53.49 PM.png",
+    "Screenshot 2023-09-10 at 12.36.56 PM.png",
+    "Screenshot 2023-09-10 at 10.28.16 PM.png",
+    "write-through-catch.png",
+    "write-back-catch.png",
     "Pasted image 20230816233652.png",
-    "Pasted image 20230810033833.png",
-    "HLD/Basics",
-    "HLD/Scaling",
-    "HLD/Load Balancing",
-    "HLD/Catching",
-    "HLD",
-    "Github",
-    "MSSQL/Practice",
-    "Design Patterns/Creational Patterns/Prototype Pattern"
+    "Pasted image 20230810033833.png"
   ]
 }

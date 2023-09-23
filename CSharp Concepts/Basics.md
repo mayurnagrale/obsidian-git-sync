@@ -1,12 +1,12 @@
 **Difference between Collection and Generics** :
-- Collection : Collections are way to store organize data. 
+- Collection : Collections are way to store organised data. 
 - We get Arrays, List, Queue.
 - 
 - Generics : Generics are way to create  template for a class or method.
 - Using templates we can make our class of method more flexible and reusable.
 
 **Lazy Loading** :
-- In c# we often use lazy loading to defer the initialization of the object or data until it is needed.
+- In c# we often use lazy loading to defer the initialisation of the object or data until it is needed.
 - this is useful when we are dealing with large dataset or expensive resource.
 - The `Lazy<T>` class in C# provides a straightforward way to implement lazy loading.
 
@@ -88,7 +88,7 @@ Await - to wait current task to be executed before completing the previous one
 
 Difference between asynchronous synchronous and multithreading
 synchronous programming follows a sequential execution model, asynchronous programming allows tasks to execute independently without blocking, 
-and multithreading involves running multiple threads simultaneously, which can be used to implement both synchronous and asynchronous behavior.
+and multithreading involves running multiple threads simultaneously, which can be used to implement both synchronous and asynchronous behaviour.
 
 **Threads and Tasks** :
 - Threads : part of os

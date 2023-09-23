@@ -16,7 +16,7 @@ Application Life Cycle :
 Initialization : 
 Application start ->Initializes MVC framework-> instance of the model view and controller will be created
 User Interaction -> Interaction can in the form of button clicking, entering input or any other form of interacting with UI 
-Controller Handling: View the forward input or events to controller -> controller decide to take action based on current state of Model and input 
+Controller Handling: View then forward input or events to controller -> controller decide to take action based on current state of Model and input 
 Model update: changes in model then get updated into view
 View Update: view gets the updated data from the model and present it
 Termination: when user exit the application.
@@ -50,7 +50,7 @@ Response Middleware -> it performs task like modifying the response, setting hea
 
 
 **Difference between Tempdata and Viewbag** :
-Viewbag : 
+ViewBag : 
 - Valid for only one http req
 - Can store any type of data doest not get typechecked at runtime
 - ex. to send some message in view.
@@ -64,3 +64,22 @@ Tempdata :
 In .NET, a resource file is a file that contains non-executable data that is used by your application. This data can include strings, images, icons, and other binary data. Resource files are typically used to localize your application, i.e. to make it available in multiple languages.
 
 Resource files can be stored in a variety of formats, including XML, binary, and JSON. The most common format for resource files in .NET is XML. XML resource files are called .resx files.
+
+**ViewData And ViewBag** :
+Both are used to transfer data from controller to view
+ViewData stores data in the form of dictionary and ViewBag stores data in the form of Dynamic object
+
+
+**Result in MVC** :
+1. ContentResult : User define content type
+2. EmptyResult : Represent a result that does nothing, Controller action method that result nothing
+3. FileResult :  Represent base class that is used to send binary file content to response
+	1. FileContent
+	2. FilePath
+	3. FileStram
+4. HttpStatusCodeResult : A specific HTTP response, status code and description
+5. JavaScriptResult : Sends javascript content to response
+6. JsonResult : send result in the form of json object (json formatted content)
+7. RedirectResult : Controls the processing of the application action by redirecting to a specified URL
+8. RedirectToRouteResult : Perform redirection by using specified route values dictionary 
+9. ViewResult : Represent base class that is used to provide modal to view and then render the view to the response.

@@ -140,6 +140,7 @@ Session State
 Cookies
 Web Services
 
-**From controller to view** :
-View Data : 
-Temp Data : Temporary data, it  will get cleared after view is rendered.
+**From controller to view** : 
+View Bag : Its a dynamic object used to send data between controller to view
+View Data : Its a dictionary stores data in the form of key value pairs 
+Temp Data :It is also a dictionary and used to sending data from controller to view 

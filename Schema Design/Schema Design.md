@@ -13,3 +13,28 @@
 **Optimizing Database Queries** :
 
 
+Latency And Throughput : 
+Latency : How long "it" takes
+Throughput : How many "Per unit of time"
+
+
+![[Screenshot 2023-09-17 at 9.53.49 PM.png]]
+
+In our system we are checking wha impact throughput the most and latency?
+Throughput can be affected by size of the hardware and efficiency of the individual operation. 
+Schema, Queries, Indexes can help in getting better result in efficiency of the operation.
+
+Schema Anti-Pattern : 
+1. Over Normalisation
+	1. Joins 
+	2. read vs writes 
+	3. Polymorphic collection 
+	4. Polymorphic field 
+2. Over Embedding 
+	1. Unbounded growth 
+	2. Deeply nested array 
+	3. Really large document 
+
+Find and Modify (update and return) vs Update One (update)
+
+UpdateOne : returns -> how many documents are updated match or not found 

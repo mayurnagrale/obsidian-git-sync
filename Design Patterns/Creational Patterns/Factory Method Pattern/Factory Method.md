@@ -1,0 +1,1 @@
+We use interface for creating object but allow subclass to alter the type of object that will be created.

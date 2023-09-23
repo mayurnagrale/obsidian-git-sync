@@ -19,11 +19,11 @@
 - Through routing user can navigate to different view or components without having to load or refresh the whole page
 
 **Ng directive** : 
-- Its a class that are used to extend the behavior of html elements
+- Its a class that are used to extend the behaviour of html elements
 - directive are used to manipulate Dom elements, add event handlers , apply style , and to create reusable components
 - three types of directive 1.component directive 2.attribute directive 3.structural directive 
 - component directive @component
-- attribute directive : to change the existing behavior of Dom elements 
+- attribute directive : to change the existing behaviour of Dom elements 
 - structural directive :to change the structure of the Dom element 
 
 **Default directive in angular**:
@@ -49,16 +49,19 @@
 - Import - (to import other module ex. commonmodule), 
 - Providers - (to register services and other providers at module level
 - Bootstrap - (specify the root component of the application)
-- by defining NgModule we can control the compilation and runtime behavior of ang app ,manage dependancy and promote modular development/
+- by defining NgModule we can control the compilation and runtime behaviour of angular app ,manage dependancy and promote modular development/
 
 **AppModule** :
-- it serves as root module for angular application and responsible for bootstraping the application, loading the other modules as needed.
+- it serves as root module for angular application and responsible for boot straping the application, loading the other modules as needed.
+
+**Different In-build Module  In Angular** : 
 
 **Filters & Pipes** :
 - filters has been replaced with pipes in angular
 - we use pipes to transform and format the data in our angular template 
 - it can be use to filter, sort, data format dates and currency and perform custom transformation
 - Pipes examples [[Pipes Examples]]
+
 
 
 **Promise and Observable** : 
@@ -91,7 +94,7 @@ Both are use for handling asynchronous operation and manage the flow of data
 	
 - **Subject** : we can use subject to event data from one component to another 
 	- First create a object of subject in first component and add next method to that object we call lines of code it will emit that value inside that object.
-	- We we subscribe this object in another component inside ngOnInit and through constructor inject we will pass our component to that another component. 
+	- We subscribe this object in another component inside ngOnInit and through constructor inject we will pass our component to that another component. 
  
 
 

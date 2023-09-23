@@ -55,3 +55,26 @@ with cte as(
 
 Detete from cte 
 where row_num>1
+
+
+	Simple query to delete duplicates in a table but here duplicate are appeared only once means count of duplicate elements is 2
+
+	Identify the duplicates 
+Selete Firstname, Lastname Count(*) From employee
+Group by Firstname, Lastname 
+Having Count(*)>1
+
+Delete from employee where id IN (
+	Select Max(Id) From Employee Group By Firstname,Lastname;
+)
+
+
+
+with temp_name_cte as (
+
+Select Id Firstname, Lastname, Row_Num() 
+over (Partition by Firstname , Lastname Order by Id ) as RowNum
+	From Employee
+)
+
+Delete from temp_name_cte where RowNum > 1
